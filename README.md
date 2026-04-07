@@ -5,8 +5,10 @@ Custom Index for Krew plugins
 ## How to use
 
 ```shell
-❯ krew index add https://github.com/xenOs76/krews.git
-accepts 2 arg(s), received 1
+❯ krew index add os76 https://github.com/xenOs76/krews.git
+WARNING: You have added a new index from "https://github.com/xenOs76/krews.git"
+The plugins in this index are not audited for security by the Krew maintainers.
+Install them at your own risk.
 
 ❯ krew index list
 INDEX     URL
