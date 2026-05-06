@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: crdlist
 spec:
-  version: v0.1.2
+  version: v0.2.0
   platforms:
     - bin: kubectl-crdlist
-      uri: https://github.com/xenos76/kubectl-crdlist/releases/download/0.1.2/kubectl-crdlist_0.1.2_Linux_arm64.tar.gz
-      sha256: a6351249fd6be7979cb094b1cb1734b2379114aba73f53f308d8eb0c81b069c3
+      uri: https://github.com/xenos76/kubectl-crdlist/releases/download/0.2.0/kubectl-crdlist_0.2.0_Linux_arm64.tar.gz
+      sha256: bf0d59861c553aa4842e7a2e2ee18ef75ac34f7a7021d569243b3b3c1c75312e
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-crdlist
-      uri: https://github.com/xenos76/kubectl-crdlist/releases/download/0.1.2/kubectl-crdlist_0.1.2_Linux_amd64.tar.gz
-      sha256: c0d9e53c1c34feeae25da46e8e139c99a719497f23b90f353b60739a48c05ba8
+      uri: https://github.com/xenos76/kubectl-crdlist/releases/download/0.2.0/kubectl-crdlist_0.2.0_Linux_amd64.tar.gz
+      sha256: fd19ad5c0528ff78076441e41700c96158626452f815f60af335250360457222
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-crdlist
-      uri: https://github.com/xenos76/kubectl-crdlist/releases/download/0.1.2/kubectl-crdlist_0.1.2_Darwin_arm64.tar.gz
-      sha256: bd91bc6725e0a9cbbad5a50b034c2e6019b5751815834cc0b492da1976733744
+      uri: https://github.com/xenos76/kubectl-crdlist/releases/download/0.2.0/kubectl-crdlist_0.2.0_Darwin_arm64.tar.gz
+      sha256: e23d392952813791e6f9f0cdaab9032fede42e99fcfe073ed56d29d24d607216
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kubectl-crdlist
-      uri: https://github.com/xenos76/kubectl-crdlist/releases/download/0.1.2/kubectl-crdlist_0.1.2_Darwin_amd64.tar.gz
-      sha256: 9e84545d184747caefc4f91775abddbb8678419ab27097c611e8a8c6510b549f
+      uri: https://github.com/xenos76/kubectl-crdlist/releases/download/0.2.0/kubectl-crdlist_0.2.0_Darwin_amd64.tar.gz
+      sha256: 85e05f6145130f3bf3ac407308f5ba2ccbce397ac0ec759e2bc032ec690c7061
       selector:
         matchLabels:
           os: darwin
