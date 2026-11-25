@@ -4,32 +4,32 @@ kind: Plugin
 metadata:
   name: netdrill
 spec:
-  version: v0.2.6
+  version: v0.3.0
   platforms:
     - bin: kubectl-netdrill
-      uri: https://github.com/xenos76/kubectl-netdrill/releases/download/0.2.6/kubectl-netdrill_0.2.6_Linux_arm64.tar.gz
-      sha256: bcbfbdb368032231d67504b8148cb4d4a95bf3ae952a9549479af3b3a1f7a809
+      uri: https://github.com/xenos76/kubectl-netdrill/releases/download/0.3.0/kubectl-netdrill_0.3.0_Linux_arm64.tar.gz
+      sha256: 7ff1faf6e9654313c187238711c0856f793e12e3ec9e7f375d6276db3f549ab0
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-netdrill
-      uri: https://github.com/xenos76/kubectl-netdrill/releases/download/0.2.6/kubectl-netdrill_0.2.6_Linux_amd64.tar.gz
-      sha256: 30d79a0ea9cd8bfbd7edec8c0369d01b22fe916ad9ceca5287bdd653f6194049
+      uri: https://github.com/xenos76/kubectl-netdrill/releases/download/0.3.0/kubectl-netdrill_0.3.0_Linux_amd64.tar.gz
+      sha256: 5290e7dd189166aebc118ee7842cc900c113dcdbf831a49e370cf6e9663e4c5b
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-netdrill
-      uri: https://github.com/xenos76/kubectl-netdrill/releases/download/0.2.6/kubectl-netdrill_0.2.6_Darwin_arm64.tar.gz
-      sha256: d2fefdb98de317145d26463cd66bd8358abc20871c8f6331b4618f0769691017
+      uri: https://github.com/xenos76/kubectl-netdrill/releases/download/0.3.0/kubectl-netdrill_0.3.0_Darwin_arm64.tar.gz
+      sha256: accd7e04205224c142a3ad272acd15b812f659c1dbc8ec2b4bcd0ca2e2c175fe
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kubectl-netdrill
-      uri: https://github.com/xenos76/kubectl-netdrill/releases/download/0.2.6/kubectl-netdrill_0.2.6_Darwin_amd64.tar.gz
-      sha256: 3d1aa8f5016452ee2e32246c15d03af9bae34c03abd506f0d4a9327c7688a0c5
+      uri: https://github.com/xenos76/kubectl-netdrill/releases/download/0.3.0/kubectl-netdrill_0.3.0_Darwin_amd64.tar.gz
+      sha256: b1e13053e42a5a74bec62725baebde301905be23cabb4eda2bead689a12faa9b
       selector:
         matchLabels:
           os: darwin
